@@ -61,7 +61,7 @@ contract grades{
     }
     
     
-    //Return the students ids how has requested a review
+    //Return the students ids who has requested a review
     function getReviewsRequested() public view isProfessor(msg.sender) returns(string [] memory){
         return reviewsRequested;
     }
